@@ -129,13 +129,13 @@ RTOScope software will be divided into several logical layers.
 ┌─────────────────────────────────────────┐
 │              User Interface             │
 ├─────────────────────────────────────────┤
-│             RTOScope Core                │
+│             RTOScope Core               │
 ├──────────────┬──────────────┬───────────┤
 │ Task Manager │ Scheduler    │ Monitoring│
 ├──────────────┴──────────────┴───────────┤
 │        IPC / Synchronization Layer      │
 ├─────────────────────────────────────────┤
-│                FreeRTOS                  │
+│                FreeRTOS                 │
 ├─────────────────────────────────────────┤
 │             Hardware Layer              │
 ├─────────────────────────────────────────┤
